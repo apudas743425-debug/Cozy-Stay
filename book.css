@@ -1,0 +1,491 @@
+:root {
+  --primary-light-green: #4a5c44;
+  --primary-light-gold: #c8b98a;
+  --primary-button-gold: #b99d75;
+  --primary-light-yellow: #f3f3f0;
+  --primary-white: #ffffff;
+  --primary-black: #000000;
+  --primary-grey: #d9d9d9;
+  --primary-red-black: #1e1e1e;
+  --secondary-dark: #343434;
+  --theme-gray: #363940;
+  --primary-dark: #676767;
+  --main-Marcellus: "Marcellus";
+  --main-La-Belle-Aurore: "La Belle Aurore";
+  --main-Lato: "Lato";
+  --main-Jost: "jost";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("fonts/Marcellus/Marcellus-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "La Belle Aurore";
+  src: url("fonts/la-belle-aurore/LaBelleAurore.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/lato/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "jost";
+  src: url("fonts/jost/jost-Regular.ttf") format("truetype");
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.book-now {
+  background-image: url("img/christian-lambert-vmIWr0NnpCQ-unsplash.jpg");
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.bg-green-custom {
+  background-color: var(--primary-light-green);
+}
+
+.booking-para {
+  color: var(--primary-white);
+  padding: 60px;
+  position: relative;
+}
+
+.booking-para .close-btn {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color: var(--primary-white);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.booking-para h1 {
+  font-family: var(--main-Marcellus);
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.booking-para p {
+  font-family: var(--main-Marcellus);
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  max-width: 500px;
+}
+
+.booking-field {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  min-height: 80px;
+  padding: 20px 25px;
+  margin-right: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.booking-field label {
+  font-size: 15px;
+  font-family: var(--main-Lato);
+}
+
+.booking-field input,
+.booking-field select {
+  background-color: transparent;
+  border: none;
+  color: var(--primary-white);
+  font-size: 13px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  min-width: 180px;
+}
+
+
+.booking-field label {
+  white-space: nowrap;
+}
+
+
+.booking-field select option {
+  background-color: var(--primary-light-green);
+  color: var(--primary-white);
+}
+
+.btn-check-availability {
+  display: block;
+  width: 100%;
+  background-color: var(--primary-button-gold);
+  color: var(--primary-white);
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 25px;
+  font-family: var(--main-Lato);
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.booking-notes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 11px;
+  font-family: var(--main-Lato);
+}
+
+.booking-notes i {
+  font-size: 6px;
+  color: var(--primary-button-gold);
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.sign-up-content span{
+color: var(--primary-white);
+font-family: var(--main-Jost);
+}
+
+.sign-up-content p{
+  color: var(--primary-white);
+  font-size: 50px;
+  font-family: var(--main-Marcellus);
+  max-width: 650px;
+}
+
+.letter-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.letter-form input[type="email"] {
+  z-index: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--primary-white);
+  color: var(--primary-white);
+  padding: 10px 0;
+  font-size: 16px;
+  width: 350px;
+}
+
+.letter-form input[type="email"]::placeholder {
+  color: var(--primary-white);
+}
+
+.letter-form button {
+  z-index: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--primary-white);
+  color: var(--primary-white);
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.privacy-policy {
+  width: 100%;
+  margin-top: 15px;
+  z-index: 1;
+}
+.privacy-policy label {
+  color: var(--primary-white);
+  font-family: var(--main-Lato);
+  font-size: 15px;
+  cursor: pointer;
+}
+.privacy-policy input {
+  margin-right: 8px;
+}
+
+/* FOOTER SECTION*/
+
+.footer {
+  background-color: var(--primary-black);
+  /* margin-top: 100px; */
+}
+
+.footer-col {
+  text-align: center;
+  padding: 50px 25px;
+  border-right: 1px solid var(--primary-white);
+  border-bottom: 1px solid var(--primary-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-family: var(--main-Jost);
+}
+
+.footer-links {
+  color: var(--primary-white);
+  text-decoration: none;
+  font-family: var(--main-Jost);
+}
+
+.footer-links:hover {
+  color: var(--primary-button-gold);
+}
+
+.social-icon i {
+  /* margin: 0 12px; */
+  color: var(--primary-white);
+  padding: 10px;
+}
+
+.social-icon i:hover {
+  color: var(--primary-light-green);
+  background: var(--primary-white);
+  border-radius: 50%;
+  
+}
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--footer-border);
+  padding: 50px 25px;
+}
+
+.footer-copyright a {
+  text-decoration: none;
+  color: var(--primary-white);
+}
+
+.footer-copyright a:hover {
+  color: var(--primary-button-gold);
+}
+
+.footer-policy-links a {
+  text-decoration: none;
+  color: var(--primary-white);
+  margin: 0 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-policy-links a:hover {
+  color: var(--primary-button-gold);
+}
+
+/* ==========================
+   TABLET (991px)
+========================== */
+@media (max-width: 991px) {
+  .book-now {
+    min-height: auto;
+  }
+
+  .booking-para {
+    padding: 50px 35px;
+  }
+
+  .booking-para h1 {
+    font-size: 42px;
+  }
+
+  .booking-para p {
+    max-width: 100%;
+  }
+
+  .booking-field {
+    margin-right: 0;
+  }
+
+  .booking-notes {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+}
+
+/* ==========================
+   TABLET (768px)
+========================== */
+@media (max-width: 768px) {
+  .booking-para {
+    padding: 40px 25px;
+  }
+
+  .booking-para h1 {
+    font-size: 36px;
+  }
+
+  .booking-para p {
+    font-size: 14px;
+  }
+
+  .booking-field {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    min-height: auto;
+  }
+
+  .booking-field input,
+  .booking-field select {
+    min-width: 100%;
+    text-align: left;
+  }
+
+  .booking-notes {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .sign-up-content p {
+    font-size: 38px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking-field {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .booking-field input,
+  .booking-field select {
+    min-width: 100%;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .row > .col-6 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .row > .col-6 {
+    width: 100%;
+  }
+}
+
+
+
+/* ==========================
+   MOBILE (576px)
+========================== */
+@media (max-width: 576px) {
+  .booking-para {
+    padding: 30px 20px;
+  }
+
+  .booking-para h1 {
+    font-size: 30px;
+  }
+
+  .booking-para p {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .booking-field {
+    padding: 15px;
+  }
+
+  .btn-check-availability {
+    font-size: 13px;
+    padding: 14px 0;
+  }
+
+  .sign-up-content p {
+    font-size: 30px;
+  }
+
+  .letter-form input[type="email"] {
+    width: 100%;
+  }
+
+  .footer-policy-links a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* ==========================
+   SMALL MOBILE (425px)
+========================== */
+@media (max-width: 425px) {
+  .booking-para h1 {
+    font-size: 26px;
+  }
+
+  .booking-para p {
+    font-size: 12px;
+  }
+
+  .sign-up-content p {
+    font-size: 24px;
+  }
+}
+
+/* ==========================
+   EXTRA SMALL (320px)
+========================== */
+@media (max-width: 320px) {
+  .booking-para {
+    padding: 25px 15px;
+  }
+
+  .booking-para h1 {
+    font-size: 22px;
+  }
+
+  .booking-field label {
+    font-size: 13px;
+  }
+
+  .booking-field input,
+  .booking-field select {
+    font-size: 12px;
+  }
+
+  .btn-check-availability {
+    font-size: 12px;
+  }
+
+  .sign-up-content p {
+    font-size: 20px;
+  }
+}

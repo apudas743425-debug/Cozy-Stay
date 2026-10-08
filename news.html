@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="news.css" />
+    <title>News</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="nav-left">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarMain"
+              aria-controls="navbarMain"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+              </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMain">
+              <ul class="navbar-nav nav-left-links">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+
+                <!-- STAY DROPDOWN -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >STAY</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Rooms Page</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Room Details - Top Image</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Room Details - Top Gallery</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Room Details - Left Booking Form</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Cart</a></li>
+                    <li><a class="dropdown-item" href="#">Checkout</a></li>
+                    <li><a class="dropdown-item" href="#">My Account</a></li>
+                  </ul>
+                </li>
+
+                <!-- PAGES DROPDOWN -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >PAGES</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">About the Hotel</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Restaurants & Bars</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">The Restaurant</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Menu Page</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Spa & Wellness</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Events & Meetings</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Local Activities</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Activity Detail Page</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">NEWS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- CENTER: Logo -->
+          <div class="nav-logo">
+            <a href="#"><img src="img/logo.png" alt="Logo" /></a>
+          </div>
+
+          <!-- RIGHT: Tel, Lang, Book -->
+          <div class="nav-right">
+            <a class="number">Tel: +41 22 345 67 88</a>
+            <span>EN / FR</span>
+            <a href="book.html" class="btn-book" target="_blank">Book Now</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+
+        <!-- BANNER -->
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Our News</h1>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="news-section">
+        <div class="container">
+          <div class="news-box">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <a href="#" class="news-img-wrap">
+                  <img
+                    src="img/galen-crout-anPsLBVvZ_o-unsplash.jpg"
+                    class="news-wrap"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="col-lg-7">
+                <div class="news-content">
+                  <span class="news-date">News.Sightseeing</span>
+                  <h3>Pacific Scenery in Summer</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    …
+                  </p>
+
+                  <div class="news-more">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news-section">
+        <div class="container">
+          <div class="news-box">
+            <div class="row align-items-center">
+              <!-- Text Left -->
+              <div class="col-lg-7">
+                <div class="news-content">
+                  <span class="news-date">Dining.News</span>
+
+                  <h3>Our New Chef and Spring Special Menu</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    …
+                  </p>
+
+                  <div class="news-more">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Image Right -->
+              <div class="col-lg-5">
+                <a href="#" class="news-img-wrap">
+                  <img
+                    src="img/jonathan-borba-fnjNFnUYso8-unsplash-1200x800.jpg"
+                    class="news-wrap"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="news-section">
+        <div class="container">
+          <div class="news-box">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <a href="#" class="news-img-wrap">
+                  <img
+                    src="img/louis-hansel-cH5IPjaAYyo-unsplash-1200x800.jpg"
+                    class="news-wrap"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="col-lg-7">
+                <div class="news-content">
+                  <span class="news-date">Dining.News.Wellness</span>
+                  <h3>Maintain Your Fitness Routine on Vacation</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    …
+                  </p>
+
+                  <div class="news-more">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="news-section">
+        <div class="container">
+          <div class="news-box">
+            <div class="row align-items-center">
+              <!-- Text Left -->
+              <div class="col-lg-7">
+                <div class="news-content">
+                  <span class="news-date">Dining.News</span>
+
+                  <h3>Introducing New Restaurants</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    …
+                  </p>
+
+                  <div class="news-more">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Image Right -->
+              <div class="col-lg-5">
+                <a href="#" class="news-img-wrap">
+                  <img
+                    src="img/mia-de-jesus-9Ol0uTDT-TU-unsplash-2-1200x800.jpg"
+                    class="news-wrap"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="news-section">
+        <div class="container">
+          <div class="news-box">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <a href="#" class="news-img-wrap">
+                  <img
+                    src="img/morgan-alley-HbnIRLqnSrQ-unsplash-3-1200x676.jpg"
+                    class="news-wrap"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="col-lg-7">
+                <div class="news-content">
+                  <span class="news-date">News.Sightseeing.Wellness</span>
+                  <h3>Outdoor Infinite Pool is Back</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    …
+                  </p>
+
+                  <div class="news-more">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="news-section">
+        <div class="container">
+          <div class="news-box">
+            <div class="row align-items-center">
+              <!-- Text Left -->
+              <div class="col-lg-7">
+                <div class="news-content">
+                  <span class="news-date">News.Sightseeing.Wellness</span>
+
+                  <h3>10 Romantic Escapes for Couples</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    …
+                  </p>
+
+                  <div class="news-more">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Image Right -->
+              <div class="col-lg-5">
+                <a href="#" class="news-img-wrap">
+                  <img
+                    src="img/sam-moghadam-khamseh-0sa8D74iodI-unsplash-1200x800.jpg"
+                    class="news-wrap"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- FOOTER -->
+
+
+      <!-- SIGN-UP-SECTION -->
+
+      <section class="sign-up-section">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+              <div class="sign-up-content">
+                <span>Stay Tuned with CozyStay</span>
+                <p>
+                  Sign up for our newsletter to receive our news, deals and
+                  special offers.
+                </p>
+              </div>
+            </div>
+            <div class="col lg-1"></div>
+            <div class="col-lg-5 col-md-12">
+              <div class="sign-up-form">
+                <form class="letter-form">
+                  <input type="email" placeholder="Your Email Address" />
+                  <button type="submit">
+                    Subscribe <i class="fa-regular fa-paper-plane"></i>
+                  </button>
+                  <div class="privacy-policy">
+                    <label>
+                      <input type="checkbox" />
+                      <span>I agree to the Privacy Policy</span>
+                    </label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row footer-top">
+          <div class="col-lg-3 footer-col">
+            <h6 class="footer-title">ADDRESS</h6>
+            <a href="#" class="footer-links">73120 Courchevel 1850, France</a>
+          </div>
+          <div class="col-lg-3 footer-col">
+            <h6 class="footer-title">PHONE</h6>
+            <a href="#" class="footer-links">+41 22 345 67 88</a>
+          </div>
+          <div class="col-lg-3 footer-col">
+            <h6 class="footer-title">EMAIL</h6>
+            <a href="#" class="footer-links">reservation@cozystay.com</a>
+          </div>
+          <div class="col-lg-3 footer-col">
+            <h6 class="footer-title">SOCIAL</h6>
+            <div class="social-icon">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+              <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- BOTTOM FOOTER -->
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            <a href="#"
+              >© Copyright CozyStay WordPress Theme for Hotel Booking.</a
+            >
+          </div>
+          <div class="footer-policy-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms of use</a>
+            <a href="#">Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
